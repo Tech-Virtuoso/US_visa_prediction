@@ -10,9 +10,9 @@ from pandas import DataFrame
 from US_visa_project.exception import USvisaException
 from US_visa_project.logger import logging
 from US_visa_project.utils.main_utils import read_yaml_file, write_yaml_file
-from US_visa_project.entity.artifact_entity import DataIngestionArtifact #, # DataValidationArtifact
-#from US_visa_project.entity.config_entity import DataValidationConfig
-#from US_visa_project.constants import SCHEMA_FILE_PATH
+from US_visa_project.entity.artifact_entity import DataIngestionArtifact ,  DataValidationArtifact
+from US_visa_project.entity.config_entity import DataValidationConfig
+from US_visa_project.constants import SCHEMA_FILE_PATH
 
 
 class DataValidation:
